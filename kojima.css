@@ -1,0 +1,135 @@
+    .tarjeta {
+        border: 10px;
+        padding: 15px;
+        border-radius: 15px;
+        margin: 20px;
+        width: 300px;
+        font-family: 'Courier New';
+    }
+
+    .historia {
+
+        font-family: Arial, sans-serif;
+        font-size: 30px;
+        color: #ffffff;
+        background-color: #1a1a1a;
+        padding: 15px;
+        border-radius: 10px;
+        text-align: center;
+        box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.5);
+
+    }
+
+    .color_kojima {
+
+        background-color: rgb(255, 255, 255);
+
+    }
+
+    .texto {
+
+        color: azure;
+
+    }
+
+    .texto_titulo {
+
+        color: azure;
+        font-family: 'Arial';
+
+    }
+
+    body {
+
+        background-image: url('https://www.kojimaproductions.jp/sites/default/files/2024-02/ds2_sop2024_screenshot013.jpg');
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-attachment: fixed; 
+        color: azure;
+    }
+      
+    .tarjeta-juegos {
+        color: azure;
+        background-color: #1e1e1e;
+        border: 2px solid #ffffff;
+        border-radius: 15px;
+        padding: 20px;
+        max-width: 600px;
+        margin: 40px auto;
+        box-shadow: 0 0 10px rgb(243, 242, 242);
+    }
+
+      .tarjeta-juegos h2 {
+        text-align: center;
+        color: #ffffff;
+        margin-bottom: 20px;
+      }
+
+      .juego {
+        margin-bottom: 10px;
+        line-height: 1.6;
+      }
+
+      .juego::before {
+        content: "🕹️ ";
+      }
+
+      .bibliografia {
+        background-color: rgb(26, 26, 26);
+        border: 2px solid #ffffff;
+        padding: 20px;
+        border-radius: 12px;
+        font-family: Arial;
+        width: 80%;
+        margin: auto;
+        color: azure;
+      }
+
+      .bibliografia h2 {
+        text-align: center;
+        color: #ffffff;
+      }
+
+      .bibliografia ul {
+        list-style-type: square;
+        padding-left: 20px;
+      }
+
+      .navar {
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+        background-color: rgba(26, 26, 26, 0.9);
+        z-index: 1000;
+      }
+      
+      .indice {
+        text-align: center;
+        list-style: none;
+        padding: 0;
+        margin: 5px 0 0 0;
+      }
+
+      .indice li {
+        display: inline;
+        margin: 0 15px;
+      }
+
+      .indice a {
+        text-decoration: none;
+        color: white;
+        font-weight: bold;
+      }
+
+      .indice a:hover {
+        color: #ffcc00;
+      }
+
+        
+      body {
+        padding-top: 80px;
+      }
+
+
